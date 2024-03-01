@@ -1,12 +1,9 @@
-import gymnasium as gym
+import pickle
 
-env = gym.make("Pendulum-v1", render_mode="human")
-observation, info = env.reset(seed=42)
-for _ in range(1000):
-   action = env.action_space.sample()  # this is where you would insert your policy
-   observation, reward, terminated, truncated, info = env.step(action)
+filename = "/home/basel/PycharmProjects/pythonProject/checkpoints/mountaincarcontinuous/policies/default_policy/policy_state.pkl"
 
-   if terminated or truncated:
-      observation, info = env.reset()
+with open(filename, 'rb') as file:
+   data = pickle.load(file)
 
-env.close()
+
+print(data)
