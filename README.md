@@ -12,6 +12,8 @@ Configurations for each agent per gymnasium Classic Control environmnet
   <a href="https://youtu.be/kbSs7d2yR9U" title="Click to watch the video">
     <img src="cart_pole.jpeg" alt="Click to watch the video" style="width: auto; max-width: 100%; height: auto;">
   </a>
+    <br>
+  <em>Click on the image to play the demo
 </p>
 
 ```
@@ -30,6 +32,8 @@ PPOConfig().framework("torch")
   <a href="https://youtu.be/0zi6yhVgr0k" title="Click to watch the video">
     <img src="acrobot.jpeg" alt="Click to watch the video" style="width: auto; max-width: 100%; height: auto;">
   </a>
+  <br>
+  <em>Click on the image to play the demo
 </p>
 
 ```
@@ -48,6 +52,8 @@ PPOConfig().framework("torch")
   <a href="https://youtu.be/Qui1cPaOqlo" title="Click to watch the video">
     <img src="mountain_car.jpeg" alt="Click to watch the video" style="width: auto; max-width: 100%; height: auto;">
   </a>
+    <br>
+  <em>Click on the image to play the demo
 </p>
 
 ```
@@ -66,6 +72,8 @@ PPOConfig().framework("torch")
   <a href="https://youtu.be/Y4XiNPqQNmY" title="Click to watch the video">
     <img src="pendulum.jpeg" alt="Click to watch the video" style="width: auto; max-width: 100%; height: auto;">
   </a>
+    <br>
+  <em>Click on the image to play the demo
 </p>
 
 ```
